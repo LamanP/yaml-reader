@@ -11,8 +11,8 @@ The source code can be obtained from [Github](https://github.com/LamanP/yaml-rea
 pom.xml to get the dependencies.
 
 ## Basic usage
-0. Start with `YAMLFactory` to parse YAML from either a stream, reader or string.
-0. Each property or array element within the structure has a unique *address*, which is the path from the root to the element, containing. Path elements are either property names (objects), or array indexes (arrays) and they are separated by slashes.
+1. Start with `YAMLFactory` to parse YAML from either a stream, reader or string.
+1. Each property or array element within the structure has a unique *address*, which is the path from the root to the element, containing. Path elements are either property names (objects), or array indexes (arrays) and they are separated by slashes.
 
 ## Basic interfaces
 |Interface|Description|
