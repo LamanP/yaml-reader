@@ -1,0 +1,11 @@
+---
+str: string1
+long: 85
+bool: true
+nothing:
+ar:
+- string2
+- 86
+- false
+- str: string3
+  long: 87

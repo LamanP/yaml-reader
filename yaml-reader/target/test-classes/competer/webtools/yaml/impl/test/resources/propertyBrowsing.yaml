@@ -1,0 +1,28 @@
+---
+contact:
+  lastName: Laman
+  firstName: Peter
+  parents:
+    father:
+      lastName: Laman
+      firstName: Paul
+      father:
+        lastName: Laman
+        firstName: Jan
+    mother:
+      lastName: Spierenburg
+      firstName: Gré
+otherFamilyMembers:
+- lastName: van Wijk
+  firstName: Nelly
+  parents:
+    father:
+      lastName: van Wijk
+      firstName: Ad
+    mother:
+      lastName: Sleutel
+      firstName: Ellen
+- lastName: Laman
+  firstName: Joëlle
+- lastName: Laman
+  firstName: Manuel
