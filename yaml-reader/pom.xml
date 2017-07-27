@@ -43,4 +43,9 @@
             </plugin>
         </plugins>
     </build>
+    <scm>
+     <url>https://github.com/LamanP/yaml-reader</url>
+     <developerConnection>Peter Laman</developerConnection>
+    </scm>
+    <description>A facade API built on snake yaml to allow easy access to YAML resources.</description>
 </project>
