@@ -2,10 +2,31 @@ package competer.webtools.yaml.api;
 
 import java.util.Iterator;
 
+/**
+ * The IYAMLArtifact interface represents a YAML artifact, that can be either an object or an array.
+ */
 public interface IYAMLArtifact
 {
+    /**
+     * @return Parent artifact, or null if the artifact is the top artifact in the parsed YAML resource.
+     */
     IYAMLArtifact parent();
+
+    /**
+     * path() returns a string representation of the property path that leads to this artifact
+     * from the root of the YAML resource.
+     *
+     * @return Path representation.
+     */
     String path();
+
+    /**
+     * Returns a required array at the specified address.
+     *
+     * @param _address Address of the array within this artifact.
+     * @return
+     * @throws YAMLException
+     */
     IYAMLArray ar( Object... _address );
     IYAMLArray oar( Object... _address );
     IYAMLObject ob( Object... _address );
